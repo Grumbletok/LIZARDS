@@ -140,7 +140,7 @@
     "setup": false,
     "name": "Scarecrow",
     "team": "demon",
-    "ability": "Each night*, choose a player; they die. If you choose yourself this way, you die and a living, good neighbor becomes evil and gains their Demon mutation in place of their current mutation.",
+    "ability": "Each night*, choose a player; they die. If you choose yourself this way, you die and a living, good neighbor becomes evil and gains their Demon mutation in place of their current mutation."
   },
   {
     "id": "announcer",
@@ -151,7 +151,7 @@
     ],
     "team": "townsfolk",
     "setup": false,
-    "ability": "Each night you learn a new phrase. If you said last night’s phrase publicly yesterday, you learn 1 non-demon player. Each night*, the Demon guesses who has the Yaggababble-Townsfolk Mutation; if they guess you, you learn this and are poisoned.",
+    "ability": "Each night you learn a new phrase. If you said last night’s phrase publicly yesterday, you learn 1 non-demon player. Each night*, the Demon guesses who has the Yaggababble-Townsfolk Mutation; if they guess you, you learn this and are poisoned."
   },
   {
     "id": "friar",
