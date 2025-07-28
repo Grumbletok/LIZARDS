@@ -1,0 +1,761 @@
+[
+  {
+    "id": "_meta",
+    "name": "LIZARDS LIZARDS LIZARDS",
+    "author": "Grumbletok",
+    "firstNight": [
+
+    ],
+    "otherNight": [
+
+    ]
+  },
+  {
+    "id": "squire",
+    "name": "Squire",
+    "edition": "custom",
+    "image": [
+      "https://raw.githubusercontent.com/yoyosource/BOTC-HomeBrew/master/Townsfolk/Lizard/Lizard.png"
+    ],
+    "team": "townsfolk",
+    "setup": false,
+    "ability": "Each night, choose a player; if you vote with them every time today, the following night you learn something related to them or one of their neighbors."
+  },
+  {
+    "id": "jacobite",
+    "name": "Jacobite",
+    "edition": "custom",
+    "image": [
+      "https://raw.githubusercontent.com/yoyosource/BOTC-HomeBrew/master/Outsider/Lizard/Lizard.png"
+    ],
+    "team": "outsider",
+    "setup": true,
+    "ability": "[+1 Outsider. 1 Outsider is Evil]"
+  },
+  {
+    "id": "toady",
+    "name": "Toady",
+    "edition": "custom",
+    "image": [
+      "https://raw.githubusercontent.com/yoyosource/BOTC-HomeBrew/master/Minion/Lizard/Lizard.png"
+    ],
+    "team": "minion",
+    "setup": false,
+    "ability": "The first time the Demon would kill you at night, you don’t die and they gain their Minion Mutation."
+  },
+  {
+    "id": "maestro",
+    "name": "Maestro",
+    "edition": "custom",
+    "image": [
+      "https://raw.githubusercontent.com/yoyosource/BOTC-HomeBrew/master/Demon/Lizard/Lizard.png"
+    ],
+    "team": "demon",
+    "setup": false,
+    "ability": "Each night*, choose a player; they die. When you kill a Minion this way, all Townsfolk are poisoned until dusk. You do not die by execution if your nominator is poisoned or drunk."
+  },
+  {
+    "id": "haymaker",
+    "name": "Haymaker",
+    "edition": "custom",
+    "image": [
+      "https://raw.githubusercontent.com/yoyosource/BOTC-HomeBrew/master/Townsfolk/Lizard/Lizard.png"
+    ],
+    "team": "townsfolk",
+    "setup": false,
+    "ability": "Each day you may publicly claim Haymaker and choose a player; if they are evil you die tonight."
+  },
+  {
+    "id": "paranoiac",
+    "name": "Paranoiac",
+    "edition": "custom",
+    "image": [
+      "https://raw.githubusercontent.com/yoyosource/BOTC-HomeBrew/master/Outsider/Lizard/Lizard.png"
+    ],
+    "team": "outsider",
+    "setup": false,
+    "ability": "You are “mad” that an evil player targeted you last night, or an evil player’s mutation might become stronger."
+  },
+  {
+    "id": "matchmaker",
+    "name": "Matchmaker",
+    "edition": "custom",
+    "image": [
+      "https://github.com/yoyosource/BOTC-HomeBrew/blob/master/Minion/Lizard/Lizard.png"
+    ],
+    "team": "minion",
+    "setup": false,
+    "ability": "There are 3 sets of good players that are paired. When either player in a pair dies at night, the other dies as well."
+  },
+  {
+    "id": "angrymob",
+    "name": "Angry Mob",
+    "edition": "custom",
+    "image": [
+      "https://raw.githubusercontent.com/yoyosource/BOTC-HomeBrew/master/Demon/Lizard/Lizard.png"
+    ],
+    "team": "demon",
+    "setup": true,
+    "ability": "On your second night, 2 good players gain this mutation and the Demon type in addition to their own, and learn this. Each night*, a player might die.[+0/+1/+2 Outsiders]"
+  },
+  {
+    "id": "honeytrap",
+    "name": "Honeytrap",
+    "edition": "custom",
+    "image": [
+      "https://raw.githubusercontent.com/yoyosource/BOTC-HomeBrew/master/Townsfolk/Lizard/Lizard.png"
+    ],
+    "team": "townsfolk",
+    "setup": false,
+    "ability": "The evil team knows there is a Damsel-mutation in play. The first time a Minion nominates you, they are drunk until the end of the game."
+  },
+  {
+    "id": "concernedcitizen",
+    "name": "Concerned Citizen",
+    "edition": "custom",
+    "image": [
+      "https://raw.githubusercontent.com/yoyosource/BOTC-HomeBrew/master/Outsider/Lizard/Lizard.png"
+    ],
+    "team": "outsider",
+    "setup": false,
+    "ability": "Each night, choose another, living player; You are “mad” until dusk that they are lying about their role or information, or the Demon might act twice the following night."
+  },
+  {
+    "id": "slanderer",
+    "name": "Slanderer",
+    "edition": "custom",
+    "image": [
+      "https://github.com/yoyosource/BOTC-HomeBrew/blob/master/Minion/Lizard/Lizard.png"
+    ],
+    "team": "minion",
+    "setup": true,
+    "ability": "Once per game at night, choose a player and a statement about the game; they learn it. They are told this statement is true. [+1 Outsider]"
+  },
+  {
+    "id": "scarecrow",
+    "edition": "custom",
+    "image": [
+      "https://raw.githubusercontent.com/yoyosource/BOTC-HomeBrew/master/Demon/Lizard/Lizard.png"
+    ],
+    "setup": false,
+    "name": "Scarecrow",
+    "team": "demon",
+    "ability": "Each night*, choose a player; they die. If you choose yourself this way, you die and a living, good neighbor becomes evil and gains their Demon mutation in place of their current mutation.",
+  },
+  {
+    "id": "announcer",
+    "name": "Announcer",
+    "edition": "custom",
+    "image": [
+      "https://raw.githubusercontent.com/yoyosource/BOTC-HomeBrew/master/Townsfolk/Lizard/Lizard.png"
+    ],
+    "team": "townsfolk",
+    "setup": false,
+    "ability": "Each night you learn a new phrase. If you said last night’s phrase publicly yesterday, you learn 1 non-demon player. Each night*, the Demon guesses who has the Yaggababble-Townsfolk Mutation; if they guess you, you learn this and are poisoned.",
+  },
+  {
+    "id": "friar",
+    "name": "Friar",
+    "edition": "custom",
+    "image": [
+      "https://raw.githubusercontent.com/yoyosource/BOTC-HomeBrew/master/Outsider/Lizard/Lizard.png"
+    ],
+    "team": "outsider",
+    "setup": false,
+    "ability": "Each night*, choose another, living player; once per game the demon may choose for the chosen player to die."
+  },
+  {
+    "id": "racketeer",
+    "name": "Racketeer",
+    "edition": "custom",
+    "image": [
+      "https://github.com/yoyosource/BOTC-HomeBrew/blob/master/Minion/Lizard/Lizard.png"
+    ],
+    "team": "minion",
+    "setup": false,
+    "ability": "Each day you may publicly claim Gambler and a character type; tonight, a player with a mutation based on that character type might die."
+  },
+  {
+    "id": "usurper",
+    "name": "Usurper",
+    "edition": "custom",
+    "image": [
+      "https://raw.githubusercontent.com/yoyosource/BOTC-HomeBrew/master/Demon/Lizard/Lizard.png"
+    ],
+    "team": "demon",
+    "setup": false,
+    "ability": "Each night*, choose a player; they die. Each night*, you may choose a dead player; they may agree to be resurrected. If they do, their vote does not count unless they vote with you for the rest of the game."
+  },
+  {
+    "id": "leprechaun",
+    "name": "Leprechaun",
+    "edition": "custom",
+    "image": [
+      "https://raw.githubusercontent.com/yoyosource/BOTC-HomeBrew/master/Townsfolk/Lizard/Lizard.png"
+    ],
+    "team": "townsfolk",
+    "setup": true,
+    "ability": "When there are only 3 living players, you’ve never been “mad” about having this ability, and you’ve nominated yourself each previous day; good wins.[-1 Outsider]"
+  },
+  {
+    "id": "fatalist",
+    "name": "Fatalist",
+    "edition": "custom",
+    "image": [
+      "https://raw.githubusercontent.com/yoyosource/BOTC-HomeBrew/master/Outsider/Lizard/Lizard.png"
+    ],
+    "team": "outsider",
+    "setup": false,
+    "ability": "Each night you learn a game statement; you are “mad” tomorrow that it is true or a player dies the following night."
+  },
+  {
+    "id": "warmonger",
+    "name": "Warmonger",
+    "edition": "custom",
+    "image": [
+      "https://github.com/yoyosource/BOTC-HomeBrew/blob/master/Minion/Lizard/Lizard.png"
+    ],
+    "team": "minion",
+    "setup": false,
+    "ability": "When a good player is executed, another good player might die instead."
+  },
+  {
+    "id": "ixion",
+    "name": "Ixion",
+    "edition": "custom",
+    "image": [
+      "https://raw.githubusercontent.com/yoyosource/BOTC-HomeBrew/master/Demon/Lizard/Lizard.png"
+    ],
+    "team": "demon",
+    "setup": false,
+    "ability": "Each night*, choose a player; they die. While there are 4 or more living players, you cannot die by execution if your living neighbors are both Townsfolk."
+  },
+  {
+    "id": "philanthropist",
+    "name": "Philanthropist",
+    "edition": "custom",
+    "image": [
+      "https://raw.githubusercontent.com/yoyosource/BOTC-HomeBrew/master/Townsfolk/Lizard/Lizard.png"
+    ],
+    "team": "townsfolk",
+    "setup": false,
+    "ability": "An Outsider has their Townsfolk mutation in addition to their Outsider mutation and learns this. You learn what character that mutation is based on."
+  },
+  {
+    "id": "maintenanceworker",
+    "name": "Maintenance Worker",
+    "edition": "custom",
+    "image": [
+      "https://raw.githubusercontent.com/yoyosource/BOTC-HomeBrew/master/Outsider/Lizard/Lizard.png"
+    ],
+    "team": "outsider",
+    "setup": false,
+    "ability": "When you are executed; evil wins at dusk after the next, and this is announced."
+  },
+  {
+    "id": "infiltrator",
+    "name": "Infiltrator",
+    "edition": "custom",
+    "image": [
+      "https://github.com/yoyosource/BOTC-HomeBrew/blob/master/Minion/Lizard/Lizard.png"
+    ],
+    "team": "minion",
+    "setup": false,
+    "ability": "Once per game at night, choose a player and a character type; they learn that you are that character type. Once per game they might receive false information."
+  },
+  {
+    "id": "serpent",
+    "name": "Serpent",
+    "edition": "custom",
+    "image": [
+      "https://raw.githubusercontent.com/yoyosource/BOTC-HomeBrew/master/Demon/Lizard/Lizard.png"
+    ],
+    "team": "demon",
+    "setup": false,
+    "ability": "Each night*, choose a player; they die. The first time there is only 1 living, good player between you and a minion, they become evil."
+  },
+  {
+    "id": "volunteer",
+    "name": "Volunteer",
+    "edition": "custom",
+    "image": [
+      "https://raw.githubusercontent.com/yoyosource/BOTC-HomeBrew/master/Townsfolk/Lizard/Lizard.png"
+    ],
+    "team": "townsfolk",
+    "setup": false,
+    "ability": "When you nominate yourself, the vote is hidden. Each night*, you learn up to 2 players that voted on you yesterday. They cannot share alignment."
+  },
+  {
+    "id": "bagman",
+    "name": "Bagman",
+    "edition": "custom",
+    "image": [
+      "https://raw.githubusercontent.com/yoyosource/BOTC-HomeBrew/master/Outsider/Lizard/Lizard.png"
+    ],
+    "team": "outsider",
+    "setup": false,
+    "ability": "Townsfolk characters might not yield information. When you die at night, all townsfolk that still live learn all information they should have learned up until this point."
+  },
+  {
+    "id": "amalgamation",
+    "name": "Amalgamation",
+    "edition": "custom",
+    "image": [
+      "https://github.com/yoyosource/BOTC-HomeBrew/blob/master/Minion/Lizard/Lizard.png"
+    ],
+    "team": "minion",
+    "setup": false,
+    "ability": "Learn all Outsider mutations. Choose 3; you gain those mutations."
+  },
+  {
+    "id": "tyrant",
+    "name": "Tyrant",
+    "edition": "custom",
+    "image": [
+      "https://raw.githubusercontent.com/yoyosource/BOTC-HomeBrew/master/Demon/Lizard/Lizard.png"
+    ],
+    "team": "demon",
+    "setup": false,
+    "ability": "Each night*, choose a player; they are publicly executed. All players know you are in play. Each day you may deny 1 execution. You die if and only if a secret condition is fulfilled. Each day you may visit the Storyteller for a clue to what the condition is."
+  },
+  {
+    "id": "nightowl",
+    "name": "Nightowl",
+    "edition": "custom",
+    "image": [
+      "https://raw.githubusercontent.com/yoyosource/BOTC-HomeBrew/master/Townsfolk/Lizard/Lizard.png"
+    ],
+    "team": "townsfolk",
+    "setup": false,
+    "ability": "Each night, choose to learn either; 1) how many players opened their eyes tonight OR; 2) some information another player learned tonight or yesterday."
+  },
+  {
+    "id": "venalwarden",
+    "name": "Venal Warden",
+    "edition": "Custom",
+    "image": [
+      "https://raw.githubusercontent.com/yoyosource/BOTC-HomeBrew/master/Outsider/Lizard/Lizard.png"
+    ],
+    "team": "outsider",
+    "setup": false,
+    "ability": "On your first night, all evil players learn all Townsfolk-mutations."
+  }
+    {
+    "id": "bioengineer",
+    "name": "Bio-Engineer",
+    "edition": "Custom",
+    "image": [
+      "https://github.com/yoyosource/BOTC-HomeBrew/blob/master/Minion/Lizard/Lizard.png"
+    ],
+    "team": "minion",
+    "setup": false,
+    "ability": "Learn all players’ Minion-mutations; choose 1 for yourself to gain and offer 1 to each other Minion to replace theirs."
+  }
+  {
+    "id": "trapper",
+    "name": "Trapper",
+    "edition": "Custom",
+    "image": [
+      "https://github.com/yoyosource/BOTC-HomeBrew/blob/master/Minion/Lizard/Lizard.png"
+    ],
+    "team": "demon",
+    "setup": false,
+    "ability": "Each night*, choose a player; they die. On your first night, a good player becomes drunk. Each day you may privately guess which player it is. If correct, they immediately become their Demon-mutation, evil and sober. You are drunk while they live."
+  }
+  {
+    "id": "advisor",
+    "name": "Advisor",
+    "edition": "Custom",
+    "image": [
+      "https://github.com/yoyosource/BOTC-HomeBrew/blob/master/Minion/Lizard/Lizard.png"
+    ],
+    "team": "townsfolk",
+    "setup": false,
+    "ability": "You cannot die from executions if any evil player votes on you. The evil team knows there is a Vizier-Townsfolk mutation in play."
+  }
+  {
+    "id": "desperado",
+    "name": "Desperado",
+    "edition": "Custom",
+    "image": [
+      "https://github.com/yoyosource/BOTC-HomeBrew/blob/master/Minion/Lizard/Lizard.png"
+    ],
+    "team": "outsider",
+    "setup": false,
+    "ability": "If you speak during your accusation or defense, a player might die tonight. However, if all you say is The Secret Word, you cannot die until dawn. Once per day you may privately visit the Storyteller for a clue to your secret word."
+  }
+  {
+    "id": "huntmaster",
+    "name": "Huntmaster",
+    "edition": "Custom",
+    "image": [
+      "https://github.com/yoyosource/BOTC-HomeBrew/blob/master/Minion/Lizard/Lizard.png"
+    ],
+    "team": "minion",
+    "setup": false,
+    "ability": "Each night, if 5 or more players live, choose a player; If they are nominated by a good player tomorrow, they are executed immediately. All players know when you choose a player."
+  }
+  {
+    "id": "serialkiller",
+    "name": "Serial Killer",
+    "edition": "Custom",
+    "image": [
+      "https://github.com/yoyosource/BOTC-HomeBrew/blob/master/Minion/Lizard/Lizard.png"
+    ],
+    "team": "demon",
+    "setup": false,
+    "ability": "Each night*, choose 2 players; they privately and silently play Roshambo, and the loser dies. In case of a tie, both players die instead."
+  }
+  {
+    "id": "navalofficer",
+    "name": "Naval Officer",
+    "edition": "Custom",
+    "image": [
+      "https://github.com/yoyosource/BOTC-HomeBrew/blob/master/Minion/Lizard/Lizard.png"
+    ],
+    "team": "townsfolk",
+    "setup": false,
+    "ability": "Once per game at night* you may choose to use your ability. If you do, if the Demon killed a Townsfolk tonight, you gain that Townfolk’s ability and learn it."
+  }
+  {
+    "id": "cheapskate",
+    "name": "Cheapskate",
+    "edition": "Custom",
+    "image": [
+      "https://github.com/yoyosource/BOTC-HomeBrew/blob/master/Minion/Lizard/Lizard.png"
+    ],
+    "team": "outsider",
+    "setup": false,
+    "ability": "Your living, good neighbors cannot be protected in any way, shape or form."
+  }
+ {
+    "id": "prankster",
+    "name": "Prankster",
+    "edition": "Custom",
+    "image": [
+      "https://github.com/yoyosource/BOTC-HomeBrew/blob/master/Minion/Lizard/Lizard.png"
+    ],
+    "team": "minion",
+    "setup": false,
+    "ability": "Each night* a good player yields Impossible Information, if possible. Each day* you may visit the storyteller to guess the Impossible Information learned. If correct, you can’t die today."
+  }
+ {
+    "id": "numerologist",
+    "name": "Numerologist",
+    "edition": "Custom",
+    "image": [
+      "https://github.com/yoyosource/BOTC-HomeBrew/blob/master/Minion/Lizard/Lizard.png"
+    ],
+    "team": "demon",
+    "setup": false,
+    "ability": "Each night*, choose 2 players; One dies, the other registers as an evil Demon until dusk."
+  }
+ {
+    "id": "notary",
+    "name": "Notary",
+    "edition": "Custom",
+    "image": [
+      "https://github.com/yoyosource/BOTC-HomeBrew/blob/master/Minion/Lizard/Lizard.png"
+    ],
+    "team": "townsfolk",
+    "setup": false,
+    "ability": "Each night, choose a character; learn a player with a mutation based on that character, or if none are in play."
+  }
+ {
+    "id": "parasite",
+    "name": "Parasite",
+    "edition": "Custom",
+    "image": [
+      "https://github.com/yoyosource/BOTC-HomeBrew/blob/master/Minion/Lizard/Lizard.png"
+    ],
+    "team": "outsider",
+    "setup": true,
+    "ability": "When you die, another player dies as well.[+1 Outsider]"
+  }
+   {
+    "id": "hedonist",
+    "name": "Hedonist",
+    "edition": "Custom",
+    "image": [
+      "https://github.com/yoyosource/BOTC-HomeBrew/blob/master/Minion/Lizard/Lizard.png"
+    ],
+    "team": "minion",
+    "setup": false,
+    "ability": "Once per game at night you may choose to use your ability. If you do, and if you are nominated tomorrow, your nominator is executed."
+  }
+   {
+    "id": "sniper",
+    "name": "Sniper",
+    "edition": "Custom",
+    "image": [
+      "https://github.com/yoyosource/BOTC-HomeBrew/blob/master/Minion/Lizard/Lizard.png"
+    ],
+    "team": "demon",
+    "setup": false,
+    "ability": "Each night*, choose a player; they die. Then, if they voted on a nomination you made yesterday, increase your vote count by 1."
+  }
+   {
+    "id": "lilbuddy",
+    "name": "Lil' Buddy",
+    "edition": "Custom",
+    "image": [
+      "https://github.com/yoyosource/BOTC-HomeBrew/blob/master/Minion/Lizard/Lizard.png"
+    ],
+    "team": "townsfolk",
+    "setup": false,
+    "ability": "You start the game holding Lil’ Buddy. Each night*, a new, good player is handed Lil’ Buddy until dusk. If the player currently holding Lil’ Buddy is executed, you die as well."
+  }
+   {
+    "id": "spiritualist",
+    "name": "Spiritualist",
+    "edition": "Custom",
+    "image": [
+      "https://github.com/yoyosource/BOTC-HomeBrew/blob/master/Minion/Lizard/Lizard.png"
+    ],
+    "team": "outsider",
+    "setup": false,
+    "ability": "Living players may only vote on nominations you make by spending vote tokens. Nominations on you always require a full majority."
+  }
+   {
+    "id": "demigod",
+    "name": "Demi-God",
+    "edition": "Custom",
+    "image": [
+      "https://github.com/yoyosource/BOTC-HomeBrew/blob/master/Minion/Lizard/Lizard.png"
+    ],
+    "team": "minion",
+    "setup": false,
+    "ability": "Each night, the Storyteller tells you a decision they’re about to make, if possible. Once per game you may make the decision for them."
+  }
+   {
+    "id": "shoggoth",
+    "name": "Shoggoth",
+    "edition": "Custom",
+    "image": [
+      "https://github.com/yoyosource/BOTC-HomeBrew/blob/master/Minion/Lizard/Lizard.png"
+    ],
+    "team": "demon",
+    "setup": false,
+    "ability": "Each night, choose another player; You learn their Demon Mutation. You may gain it instead of your own. Each night*, choose a player; they die."
+  }
+   {
+    "id": "malcontent",
+    "name": "Malcontent",
+    "edition": "Custom",
+    "image": [
+      "https://github.com/yoyosource/BOTC-HomeBrew/blob/master/Minion/Lizard/Lizard.png"
+    ],
+    "team": "townsfolk",
+    "setup": false,
+    "ability": "When an evil player targets you in the night, you secretly and silently play Roshambo. If you win or there is a tie, another player is targeted instead."
+  }
+   {
+    "id": "tick",
+    "name": "Tick",
+    "edition": "Custom",
+    "image": [
+      "https://github.com/yoyosource/BOTC-HomeBrew/blob/master/Minion/Lizard/Lizard.png"
+    ],
+    "team": "outsider",
+    "setup": false,
+    "ability": "On your first night, choose a player; when they are executed, you die instead. If good, they are poisoned."
+  }
+     {
+    "id": "grotesque",
+    "name": "Grotesque",
+    "edition": "Custom",
+    "image": [
+      "https://github.com/yoyosource/BOTC-HomeBrew/blob/master/Minion/Lizard/Lizard.png"
+    ],
+    "team": "minion",
+    "setup": false,
+    "ability": "Once per game when nominated, you may claim Golem. For the rest of the game, any nomination made by the player that nominated you fails."
+  }
+     {
+    "id": "anglerfish",
+    "name": "Anglerfish",
+    "edition": "Custom",
+    "image": [
+      "https://github.com/yoyosource/BOTC-HomeBrew/blob/master/Minion/Lizard/Lizard.png"
+    ],
+    "team": "demon",
+    "setup": false,
+    "ability": "Each night*, choose a player; they die. Then a player may accept a piece of advice. If they do, a player dies."
+  }
+     {
+    "id": "genius",
+    "name": "Genius",
+    "edition": "Custom",
+    "image": [
+      "https://github.com/yoyosource/BOTC-HomeBrew/blob/master/Minion/Lizard/Lizard.png"
+    ],
+    "team": "townsfolk",
+    "setup": false,
+    "ability": "While nominating, you may claim Psychopath as your accusation. If you do, play Roshambo with them. If you win or tie, tonight you learn their alignment. If you lose, instead the nomination ends and you are put on the block."
+  }
+     {
+    "id": "aspirant",
+    "name": "Aspirant",
+    "edition": "Custom",
+    "image": [
+      "https://github.com/yoyosource/BOTC-HomeBrew/blob/master/Minion/Lizard/Lizard.png"
+    ],
+    "team": "outsider",
+    "setup": false,
+    "ability": "If you nominate a good player and they are executed, you might become evil tonight."
+  }
+     {
+    "id": "hellhound",
+    "name": "Hellhound",
+    "edition": "Custom",
+    "image": [
+      "https://github.com/yoyosource/BOTC-HomeBrew/blob/master/Minion/Lizard/Lizard.png"
+    ],
+    "team": "minion",
+    "setup": false,
+    "ability": "When you are executed, howl and then choose 2, living players; to be able to nominate freely again, they must first have nominated and executed you. All players learn this."
+  }
+     {
+    "id": "narcissist",
+    "name": "Narcissist",
+    "edition": "Custom",
+    "image": [
+      "https://github.com/yoyosource/BOTC-HomeBrew/blob/master/Minion/Lizard/Lizard.png"
+    ],
+    "team": "demon",
+    "setup": true,
+    "ability": "Each night*, choose a player; they die. The first time you are nominated and executed, your nominator dies instead.[+1 Outsider]"
+  }
+     {
+    "id": "executioner",
+    "name": "Executioner",
+    "edition": "Custom",
+    "image": [
+      "https://github.com/yoyosource/BOTC-HomeBrew/blob/master/Minion/Lizard/Lizard.png"
+    ],
+    "team": "townsfolk",
+    "setup": false,
+    "ability": "When a player nominates themselves, after voting has occurred, you may claim Vizier. If you do, and any evil players voted, the execution is immediate."
+  }
+     {
+    "id": "spawn",
+    "name": "Spawn",
+    "edition": "Custom",
+    "image": [
+      "https://github.com/yoyosource/BOTC-HomeBrew/blob/master/Minion/Lizard/Lizard.png"
+    ],
+    "team": "outsider",
+    "setup": false,
+    "ability": "You cannot die by execution. When you die at night, the Demon gains protection from their next execution."
+  }
+     {
+    "id": "sibyl",
+    "name": "Sibyl",
+    "edition": "Custom",
+    "image": [
+      "https://github.com/yoyosource/BOTC-HomeBrew/blob/master/Minion/Lizard/Lizard.png"
+    ],
+    "team": "minion",
+    "setup": false,
+    "ability": "Each night, choose a player; all evil players learn a piece of advice related to that player. They all learn the same advice."
+  }
+       {
+    "id": "prince",
+    "name": "Prince",
+    "edition": "Custom",
+    "image": [
+      "https://github.com/yoyosource/BOTC-HomeBrew/blob/master/Minion/Lizard/Lizard.png"
+    ],
+    "team": "demon",
+    "setup": true,
+    "ability": "Each night*, choose a player; they die. [You learn all available Outsider mutations and choose which will be in play. They cannot affect setup]"
+  }
+       {
+    "id": "constable",
+    "name": "Constable",
+    "edition": "Custom",
+    "image": [
+      "https://github.com/yoyosource/BOTC-HomeBrew/blob/master/Minion/Lizard/Lizard.png"
+    ],
+    "team": "townsfolk",
+    "setup": false,
+    "ability": "You cannot die while there are no evil dead."
+  }
+       {
+    "id": "waif",
+    "name": "Waif",
+    "edition": "Custom",
+    "image": [
+      "https://github.com/yoyosource/BOTC-HomeBrew/blob/master/Minion/Lizard/Lizard.png"
+    ],
+    "team": "outsider",
+    "setup": true,
+    "ability": "Each night, choose 2 new (if possible) players; if one of the chosen players is the demon, the other player becomes evil.[-1 Outsider]"
+  }
+         {
+    "id": "marksman",
+    "name": "Marksman",
+    "edition": "Custom",
+    "image": [
+      "https://github.com/yoyosource/BOTC-HomeBrew/blob/master/Minion/Lizard/Lizard.png"
+    ],
+    "team": "minion",
+    "setup": false,
+    "ability": "On your first night, you learn all characters that Townsfolk players’ abilities are mutated from. Each night*, choose a character; the demon learns a player whose mutation is based on that character, and their ability."
+  }
+         {
+    "id": "boss",
+    "name": "Boss",
+    "edition": "Custom",
+    "image": [
+      "https://github.com/yoyosource/BOTC-HomeBrew/blob/master/Minion/Lizard/Lizard.png"
+    ],
+    "team": "demon",
+    "setup": false,
+    "ability": "On your first night, learn all out-of-play Minion-mutations. Choose one to have in addition to your Demon-mutation. Each night*, choose a player; they die."
+  }
+         {
+    "id": "marid",
+    "name": "Marid",
+    "edition": "Custom",
+    "image": [
+      "https://github.com/yoyosource/BOTC-HomeBrew/blob/master/Minion/Lizard/Lizard.png"
+    ],
+    "team": "townsfolk",
+    "setup": false,
+    "ability": "When you would die at night, instead you and 2 other players choose life or death. Players who choose life live, players that choose death dies. If all choose life, all die."
+  }
+         {
+    "id": "shambler",
+    "name": "Shambler",
+    "edition": "Custom",
+    "image": [
+      "https://github.com/yoyosource/BOTC-HomeBrew/blob/master/Minion/Lizard/Lizard.png"
+    ],
+    "team": "outsider",
+    "setup": false,
+    "ability": "Townsfolk players may appear alive even though they are not. Players that appear alive keep their abilities but are drunk."
+  }
+         {
+    "id": "mutationmary",
+    "name": "Mutation Mary",
+    "edition": "Custom",
+    "image": [
+      "https://github.com/yoyosource/BOTC-HomeBrew/blob/master/Minion/Lizard/Lizard.png"
+    ],
+    "team": "minion",
+    "setup": true,
+    "ability": "Each night, another player's mutation grows stronger or weaker. [+1 Outsider]"
+  }
+         {
+    "id": "doom",
+    "name": "DOOM",
+    "edition": "Custom",
+    "image": [
+      "https://github.com/yoyosource/BOTC-HomeBrew/blob/master/Minion/Lizard/Lizard.png"
+    ],
+    "team": "demon",
+    "setup": false,
+    "ability": "Each night*, choose a player; they die. They are publicly announced for DOOM, but may reject it. If they do, you may choose 2 players the following night. If they don’t, a player of their alignment dies and no DOOM occurs the following night."
+  }
+]
