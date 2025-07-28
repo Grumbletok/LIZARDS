@@ -339,7 +339,7 @@
     "team": "outsider",
     "setup": false,
     "ability": "On your first night, all evil players learn all Townsfolk-mutations."
-  }
+  },
     {
     "id": "bioengineer",
     "name": "Bio-Engineer",
@@ -350,7 +350,7 @@
     "team": "minion",
     "setup": false,
     "ability": "Learn all players’ Minion-mutations; choose 1 for yourself to gain and offer 1 to each other Minion to replace theirs."
-  }
+  },
   {
     "id": "trapper",
     "name": "Trapper",
@@ -361,7 +361,7 @@
     "team": "demon",
     "setup": false,
     "ability": "Each night*, choose a player; they die. On your first night, a good player becomes drunk. Each day you may privately guess which player it is. If correct, they immediately become their Demon-mutation, evil and sober. You are drunk while they live."
-  }
+  },
   {
     "id": "advisor",
     "name": "Advisor",
@@ -372,7 +372,7 @@
     "team": "townsfolk",
     "setup": false,
     "ability": "You cannot die from executions if any evil player votes on you. The evil team knows there is a Vizier-Townsfolk mutation in play."
-  }
+  },
   {
     "id": "desperado",
     "name": "Desperado",
@@ -383,7 +383,7 @@
     "team": "outsider",
     "setup": false,
     "ability": "If you speak during your accusation or defense, a player might die tonight. However, if all you say is The Secret Word, you cannot die until dawn. Once per day you may privately visit the Storyteller for a clue to your secret word."
-  }
+  },
   {
     "id": "huntmaster",
     "name": "Huntmaster",
@@ -394,7 +394,7 @@
     "team": "minion",
     "setup": false,
     "ability": "Each night, if 5 or more players live, choose a player; If they are nominated by a good player tomorrow, they are executed immediately. All players know when you choose a player."
-  }
+  },
   {
     "id": "serialkiller",
     "name": "Serial Killer",
@@ -405,7 +405,7 @@
     "team": "demon",
     "setup": false,
     "ability": "Each night*, choose 2 players; they privately and silently play Roshambo, and the loser dies. In case of a tie, both players die instead."
-  }
+  },
   {
     "id": "navalofficer",
     "name": "Naval Officer",
@@ -416,7 +416,7 @@
     "team": "townsfolk",
     "setup": false,
     "ability": "Once per game at night* you may choose to use your ability. If you do, if the Demon killed a Townsfolk tonight, you gain that Townfolk’s ability and learn it."
-  }
+  },
   {
     "id": "cheapskate",
     "name": "Cheapskate",
@@ -427,7 +427,7 @@
     "team": "outsider",
     "setup": false,
     "ability": "Your living, good neighbors cannot be protected in any way, shape or form."
-  }
+  },
  {
     "id": "prankster",
     "name": "Prankster",
@@ -438,7 +438,7 @@
     "team": "minion",
     "setup": false,
     "ability": "Each night* a good player yields Impossible Information, if possible. Each day* you may visit the storyteller to guess the Impossible Information learned. If correct, you can’t die today."
-  }
+  },
  {
     "id": "numerologist",
     "name": "Numerologist",
@@ -449,7 +449,7 @@
     "team": "demon",
     "setup": false,
     "ability": "Each night*, choose 2 players; One dies, the other registers as an evil Demon until dusk."
-  }
+  },
  {
     "id": "notary",
     "name": "Notary",
@@ -460,7 +460,7 @@
     "team": "townsfolk",
     "setup": false,
     "ability": "Each night, choose a character; learn a player with a mutation based on that character, or if none are in play."
-  }
+  },
  {
     "id": "parasite",
     "name": "Parasite",
@@ -471,7 +471,7 @@
     "team": "outsider",
     "setup": true,
     "ability": "When you die, another player dies as well.[+1 Outsider]"
-  }
+  },
    {
     "id": "hedonist",
     "name": "Hedonist",
@@ -482,7 +482,7 @@
     "team": "minion",
     "setup": false,
     "ability": "Once per game at night you may choose to use your ability. If you do, and if you are nominated tomorrow, your nominator is executed."
-  }
+  },
    {
     "id": "sniper",
     "name": "Sniper",
@@ -493,7 +493,7 @@
     "team": "demon",
     "setup": false,
     "ability": "Each night*, choose a player; they die. Then, if they voted on a nomination you made yesterday, increase your vote count by 1."
-  }
+  },
    {
     "id": "lilbuddy",
     "name": "Lil' Buddy",
@@ -504,7 +504,7 @@
     "team": "townsfolk",
     "setup": false,
     "ability": "You start the game holding Lil’ Buddy. Each night*, a new, good player is handed Lil’ Buddy until dusk. If the player currently holding Lil’ Buddy is executed, you die as well."
-  }
+  },
    {
     "id": "spiritualist",
     "name": "Spiritualist",
@@ -515,7 +515,7 @@
     "team": "outsider",
     "setup": false,
     "ability": "Living players may only vote on nominations you make by spending vote tokens. Nominations on you always require a full majority."
-  }
+  },
    {
     "id": "demigod",
     "name": "Demi-God",
@@ -526,7 +526,7 @@
     "team": "minion",
     "setup": false,
     "ability": "Each night, the Storyteller tells you a decision they’re about to make, if possible. Once per game you may make the decision for them."
-  }
+  },
    {
     "id": "shoggoth",
     "name": "Shoggoth",
@@ -537,7 +537,7 @@
     "team": "demon",
     "setup": false,
     "ability": "Each night, choose another player; You learn their Demon Mutation. You may gain it instead of your own. Each night*, choose a player; they die."
-  }
+  },
    {
     "id": "malcontent",
     "name": "Malcontent",
@@ -548,7 +548,7 @@
     "team": "townsfolk",
     "setup": false,
     "ability": "When an evil player targets you in the night, you secretly and silently play Roshambo. If you win or there is a tie, another player is targeted instead."
-  }
+  },
    {
     "id": "tick",
     "name": "Tick",
@@ -559,7 +559,7 @@
     "team": "outsider",
     "setup": false,
     "ability": "On your first night, choose a player; when they are executed, you die instead. If good, they are poisoned."
-  }
+  },
      {
     "id": "grotesque",
     "name": "Grotesque",
@@ -570,7 +570,7 @@
     "team": "minion",
     "setup": false,
     "ability": "Once per game when nominated, you may claim Golem. For the rest of the game, any nomination made by the player that nominated you fails."
-  }
+  },
      {
     "id": "anglerfish",
     "name": "Anglerfish",
@@ -581,7 +581,7 @@
     "team": "demon",
     "setup": false,
     "ability": "Each night*, choose a player; they die. Then a player may accept a piece of advice. If they do, a player dies."
-  }
+  },
      {
     "id": "genius",
     "name": "Genius",
@@ -592,7 +592,7 @@
     "team": "townsfolk",
     "setup": false,
     "ability": "While nominating, you may claim Psychopath as your accusation. If you do, play Roshambo with them. If you win or tie, tonight you learn their alignment. If you lose, instead the nomination ends and you are put on the block."
-  }
+  },
      {
     "id": "aspirant",
     "name": "Aspirant",
@@ -603,7 +603,7 @@
     "team": "outsider",
     "setup": false,
     "ability": "If you nominate a good player and they are executed, you might become evil tonight."
-  }
+  },
      {
     "id": "hellhound",
     "name": "Hellhound",
@@ -614,7 +614,7 @@
     "team": "minion",
     "setup": false,
     "ability": "When you are executed, howl and then choose 2, living players; to be able to nominate freely again, they must first have nominated and executed you. All players learn this."
-  }
+  },
      {
     "id": "narcissist",
     "name": "Narcissist",
@@ -625,7 +625,7 @@
     "team": "demon",
     "setup": true,
     "ability": "Each night*, choose a player; they die. The first time you are nominated and executed, your nominator dies instead.[+1 Outsider]"
-  }
+  },
      {
     "id": "executioner",
     "name": "Executioner",
@@ -636,7 +636,7 @@
     "team": "townsfolk",
     "setup": false,
     "ability": "When a player nominates themselves, after voting has occurred, you may claim Vizier. If you do, and any evil players voted, the execution is immediate."
-  }
+  },
      {
     "id": "spawn",
     "name": "Spawn",
@@ -647,7 +647,7 @@
     "team": "outsider",
     "setup": false,
     "ability": "You cannot die by execution. When you die at night, the Demon gains protection from their next execution."
-  }
+  },
      {
     "id": "sibyl",
     "name": "Sibyl",
@@ -658,7 +658,7 @@
     "team": "minion",
     "setup": false,
     "ability": "Each night, choose a player; all evil players learn a piece of advice related to that player. They all learn the same advice."
-  }
+  },
        {
     "id": "prince",
     "name": "Prince",
@@ -669,7 +669,7 @@
     "team": "demon",
     "setup": true,
     "ability": "Each night*, choose a player; they die. [You learn all available Outsider mutations and choose which will be in play. They cannot affect setup]"
-  }
+  },
        {
     "id": "constable",
     "name": "Constable",
@@ -680,7 +680,7 @@
     "team": "townsfolk",
     "setup": false,
     "ability": "You cannot die while there are no evil dead."
-  }
+  },
        {
     "id": "waif",
     "name": "Waif",
@@ -691,7 +691,7 @@
     "team": "outsider",
     "setup": true,
     "ability": "Each night, choose 2 new (if possible) players; if one of the chosen players is the demon, the other player becomes evil.[-1 Outsider]"
-  }
+  },
          {
     "id": "marksman",
     "name": "Marksman",
@@ -702,7 +702,7 @@
     "team": "minion",
     "setup": false,
     "ability": "On your first night, you learn all characters that Townsfolk players’ abilities are mutated from. Each night*, choose a character; the demon learns a player whose mutation is based on that character, and their ability."
-  }
+  },
          {
     "id": "boss",
     "name": "Boss",
@@ -713,7 +713,7 @@
     "team": "demon",
     "setup": false,
     "ability": "On your first night, learn all out-of-play Minion-mutations. Choose one to have in addition to your Demon-mutation. Each night*, choose a player; they die."
-  }
+  },
          {
     "id": "marid",
     "name": "Marid",
@@ -724,7 +724,7 @@
     "team": "townsfolk",
     "setup": false,
     "ability": "When you would die at night, instead you and 2 other players choose life or death. Players who choose life live, players that choose death dies. If all choose life, all die."
-  }
+  },
          {
     "id": "shambler",
     "name": "Shambler",
@@ -735,7 +735,7 @@
     "team": "outsider",
     "setup": false,
     "ability": "Townsfolk players may appear alive even though they are not. Players that appear alive keep their abilities but are drunk."
-  }
+  },
          {
     "id": "mutationmary",
     "name": "Mutation Mary",
