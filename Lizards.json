@@ -747,7 +747,7 @@
     "setup": true,
     "ability": "Each night, another player's mutation grows stronger or weaker. [+1 Outsider]"
   },
-         {
+{
     "id": "doom",
     "name": "DOOM",
     "edition": "Custom",
